@@ -1,0 +1,12 @@
+﻿<head>
+    <link href=@Url.Content("~/styles/app.css") rel="stylesheet" type="text/css"/>
+</head>
+<div>
+    <h1 class="header">@ViewBag.Time!</h1>
+    <div class="nav-link">
+        <a asp-controller="Site" asp-action="Events"><h3>Events</h3></a>
+    </div>
+    <div class="nav-link">
+        <a asp-controller="Site" asp-action="Login"><h3>Login</h3></a>
+    </div>
+</div>

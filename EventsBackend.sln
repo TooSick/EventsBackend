@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0FFE8E40-0A21-4B0C-A0EA-073CD28C534B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infastructure", "Infastructure", "{1DAC3864-957D-44C4-A459-1CB04C19C8C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{11315F4B-8CEB-4D3E-BFA5-62617071A4A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsDomain", "EventsDomain\EventsDomain.csproj", "{73986A06-C550-4384-A438-A804F39777FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsApplication", "EventsApplication\EventsApplication.csproj", "{1C51F098-7F03-4CCA-B149-AB716A6BF43C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsPersistence", "EventsPersistence\EventsPersistence.csproj", "{478ED780-63BE-43FC-86B0-7ADBF27EDB0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsWebApi", "EventsWebApi\EventsWebApi.csproj", "{20F2B931-314D-4136-AF49-D3D63259DA8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{C8268388-D524-4789-B982-C6F3F9F96964}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity", "Identity\Identity.csproj", "{35CA6C51-DBBE-495A-AE02-D4E3E65A91EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73986A06-C550-4384-A438-A804F39777FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73986A06-C550-4384-A438-A804F39777FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73986A06-C550-4384-A438-A804F39777FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73986A06-C550-4384-A438-A804F39777FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C51F098-7F03-4CCA-B149-AB716A6BF43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C51F098-7F03-4CCA-B149-AB716A6BF43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C51F098-7F03-4CCA-B149-AB716A6BF43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C51F098-7F03-4CCA-B149-AB716A6BF43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478ED780-63BE-43FC-86B0-7ADBF27EDB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478ED780-63BE-43FC-86B0-7ADBF27EDB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478ED780-63BE-43FC-86B0-7ADBF27EDB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478ED780-63BE-43FC-86B0-7ADBF27EDB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F2B931-314D-4136-AF49-D3D63259DA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F2B931-314D-4136-AF49-D3D63259DA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F2B931-314D-4136-AF49-D3D63259DA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F2B931-314D-4136-AF49-D3D63259DA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CA6C51-DBBE-495A-AE02-D4E3E65A91EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CA6C51-DBBE-495A-AE02-D4E3E65A91EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CA6C51-DBBE-495A-AE02-D4E3E65A91EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CA6C51-DBBE-495A-AE02-D4E3E65A91EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73986A06-C550-4384-A438-A804F39777FE} = {0FFE8E40-0A21-4B0C-A0EA-073CD28C534B}
+		{1C51F098-7F03-4CCA-B149-AB716A6BF43C} = {0FFE8E40-0A21-4B0C-A0EA-073CD28C534B}
+		{478ED780-63BE-43FC-86B0-7ADBF27EDB0E} = {1DAC3864-957D-44C4-A459-1CB04C19C8C7}
+		{20F2B931-314D-4136-AF49-D3D63259DA8F} = {11315F4B-8CEB-4D3E-BFA5-62617071A4A8}
+		{35CA6C51-DBBE-495A-AE02-D4E3E65A91EC} = {C8268388-D524-4789-B982-C6F3F9F96964}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EBB4D49-404D-49F4-B539-E21288793E7A}
+	EndGlobalSection
+EndGlobal
